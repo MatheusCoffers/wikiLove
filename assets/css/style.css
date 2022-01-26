@@ -1,0 +1,269 @@
+:root{
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Oswald';
+    background-color: #00AB80;
+    color: #ECFFFB;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    margin-bottom: 100px;
+}
+
+.logo h2{
+    color: #ECFFFB;
+    font-size: 4rem;
+}
+
+.logo span{
+    color: #F57A4F;
+}
+
+.sections{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 85vw;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.section1_text, .section1_img{
+    width: 49.8%;
+    min-width: 450px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.section1_text>h3{
+    font-size: 2rem;
+    width: 100%;
+    margin: 0;
+}
+
+.section1_text>h1{
+    font-size:clamp(5.3rem,4.5vw,9rem);
+    line-height: 65px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.section1_text a{
+ background-color: #F57A4F;
+ text-decoration: none;
+ color: #ECFFFB;
+ padding: 20px;
+ font-size: 2.5rem;
+}
+
+.section1_text>a:hover{
+    color: #F57A4F;
+    background-color: #ECFFFB;
+}
+
+.section1_img>img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.section2-text{
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.section2-cards{
+    width: 100%;
+    min-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 19vw;
+    min-width: 240px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin: 12px;
+    background-color: #43DFB8;
+    border-radius: 10px;
+}
+
+.card:hover{
+    background-color: #F57A4F;
+}
+
+.card img{
+    width: 30%;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.card h3{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.section3{
+    background-color: #F57A4F;
+    width: 100%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    min-height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.section3_img{
+    min-width: 400px;
+    width: 35vw;
+    min-height: 400px;
+    height: 40vw;
+    background-image: url('../images/foto2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 20px;
+}
+
+.section3_text>h1{
+    font-size:clamp(3.5rem,3.8vw,9rem);
+    text-align: end;
+    line-height: 60px;
+    margin-top: 50px;
+    height: 80px;
+}
+
+.section3_text>h3{
+    font-size: 2.3rem;
+    width: 100%;
+    margin: 0; 
+    text-align: end;
+    height: 50px;
+}
+
+.section3_text a{
+    padding: 20px;
+    font-size: 2.2rem;
+    text-decoration: none;
+    background-color: #ECFFFB;
+    color:#F57A4F;
+    line-height: auto;
+    height: 35px;
+
+}
+.section3_text{
+    width: calc(100% - 35vw - 84px);
+    min-width: 400px;
+    height: 400px;
+    margin:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.section3_text>a:hover{
+    color: #ECFFFB;
+    background-color: #fcb499;
+}
+
+.area_form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.area_form h1{
+    margin-top: 50px;
+    font-size: clamp(2.85rem,2.51vw,4rem);
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 11px;
+}
+
+.form1{
+    min-width: 400px;
+    width: 35vw;
+}
+
+.form1 form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form1 input{
+    margin-top: 25px;
+    height: 60px;
+    border: none; 
+    outline: none;
+    border-color: #ECFFFB;
+    font-family: 'Oswald';
+    font-size: 2rem;
+    padding-left: 10px;
+}
+
+input::placeholder{
+    color: #F57A4F;
+    padding-left: 10px;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+input[type="submit"]{
+    background-color: #F57A4F;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #ECFFFB;
+}
+
+input[type="submit"]:hover{
+    background-color: #fcb499;
+    color: #F57A4F;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h1{
+    font-size: 2.5rem;
+}
+
+.footer_icons{
+    margin-bottom: 50px;
+}
+
+.footer_icons img{
+    width: 4rem;
+    margin: 5px;
+}
